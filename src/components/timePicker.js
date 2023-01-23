@@ -42,7 +42,7 @@ export default function TimePickCust() {
     <ThemeProvider theme={theme}>
       <div>
         <LocalizationProvider dateAdapter={AdapterDateFns}>
-          <Stack spacing={3} sx={{ width: "150px" }}>
+          <Stack spacing={3} sx={{ width: "200px" }}>
             <DateTimePicker
               label="Date picker"
               value={selectedDate}

@@ -5,7 +5,7 @@ import rightYellow from "./assets/img/rY.png";
 import leftGreen from "./assets/img/lG.png";
 import illPic from "./assets/img/illustatPic.png";
 import Reservation from "./components/Reservation";
-
+import frstSecBkImg from "./assets/img/frstScec.jpg";
 function App() {
   return (
     <body>
@@ -52,6 +52,7 @@ function App() {
       <section className="secPick">
         <Reservation />
       </section>
+      <img className="frstSecBkImg" src={frstSecBkImg} />
     </body>
   );
 }

@@ -148,16 +148,21 @@ border-radius: 25px ;
   
 }
 
-.pickerContainer {
+.frstPickerMainCon {
   display: flex;
   flex-direction: column;
+  width: 100%;
+}
+
+.pickDate {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
   justify-content: space-between;
-  align-items: center;
-  /* margin-left: 30px; */
-  /* margin-right: 30px; */
-  width: 50%;
-  height: 674px;
-  margin-top: 30px;
+  /* height: 600px; */
+  width: 90%;
+  margin-right: 10%;
+  margin-top: 70px
 }
 
 .pickDate h2 {
@@ -168,16 +173,20 @@ border-radius: 25px ;
   
 }
 
-.pickDate {
+.pickerContainer {
   display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: space-between;
-  height: 600px;
-  width: 90%;
-  margin-right: 10%;
-  margin-top: 70px
+  flex-direction: column;
+  /* justify-content: space-between; */
+  align-items: center;
+  /* margin-left: 30px; */
+  /* margin-right: 30px; */
+  width: 50%;
+  height: 674px;
+  margin-top: 30px;
 }
+
+
+
 
 .dubaiViewContainer {
   /* width:  560px; */
@@ -198,4 +207,93 @@ overflow: hidden;
   justify-content: space-between;
   align-items: center;
   width: 30%;
+}
+
+
+.pickGustNumCont {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  justify-content: space-between;
+  margin-top: 30px;
+  align-items: center;
+}
+
+.pickGstBtn {
+height: 4em;
+width: 4em;
+border-radius: 8px;
+
+}
+
+.guestsNumTxt {
+  font-family: 'Bold';
+  font-size: 1.5em;
+  font-weight: bolder;
+}
+
+#resTitle {
+  font-family: 'Bold';
+  font-size: 2rem;
+  color:  #333333;
+  margin-bottom:30px;
+}
+
+.cafPlanPicCon{
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin-top: 30px;
+}
+
+.cafPlanPic {
+  height: 227px;
+}
+.resBtnCont {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-right: 10%;
+  flex-direction: row;
+}
+
+.resBtn {
+  width: 100%;
+  background-color: black;
+  color: white;
+  font-family: 'Regular';
+  font-size: 1.5rem;
+  font-weight: bold;
+border-radius: 8px;
+height: 54px;
+margin: 10px
+}
+
+.availability {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#redSquare {
+  color: #960000;
+  margin-right: 5px;
+}
+#grayquare {
+  color: #D9D9D9;
+  margin-right: 5px;
+}
+#chosnSquare{
+  color:#F4CE14;
+  margin-right: 5px;
+}
+
+.frstSecBkImg{
+  position: absolute;
+  height: 808px;
+  left: 0px;
+  top: 1500px;
+  z-index: -3;
 }

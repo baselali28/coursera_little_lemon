@@ -14,7 +14,7 @@ function SwitcherNav() {
   }
   return (
     <div className="switcherNav">
-      <h1>Reserving</h1>
+      <h1 id="resTitle">Reserving</h1>
       <div className="frstComp">
         <div className="pickerContainer">
           <div className="stepsContainer">
@@ -72,6 +72,41 @@ function SwitcherNav() {
           ) : (
             ""
           )}
+          <div className="resBtnCont">
+            {step === 1 ? (
+              <button className="resBtn" onClick={() => setStep(2)}>
+                {" "}
+                Next
+              </button>
+            ) : step === 2 ? (
+              <div className="resBtnCont">
+                <button className="resBtn" onClick={() => setStep(1)}>
+                  {" "}
+                  Previous
+                </button>
+                <button className="resBtn" onClick={() => setStep(3)}>
+                  {" "}
+                  Next
+                </button>
+              </div>
+            ) : step === 3 ? (
+              <div className="resBtnCont">
+                <button className="resBtn" onClick={() => setStep(2)}>
+                  {" "}
+                  Previous
+                </button>
+                <button className="resBtn" onClick={() => setStep(4)}>
+                  {" "}
+                  Pay
+                </button>
+              </div>
+            ) : (
+              <button className="resBtn" onClick={() => setStep(1)}>
+                {" "}
+                Reserve another Table Again!
+              </button>
+            )}
+          </div>
         </div>
         <div className="dubaiViewContainer">
           <img src={dubaiView} className="dubaiViewPic" />
