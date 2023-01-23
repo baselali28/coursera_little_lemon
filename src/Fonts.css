@@ -1,0 +1,14 @@
+/*-------------------------Fonts-----------------*/
+@font-face {
+    font-family: 'Black';
+    src: local('cambriab'), url(./fonts/cambriab.ttf) format('truetype');
+  }
+ 
+@font-face {
+    font-family: 'Regular';
+    src: local('cambria'), url(./fonts/cambria.ttc) format('truetype');
+  }  
+  @font-face {
+    font-family: 'Italic';
+    src: local('cambriai'), url(./fonts/cambriai.ttf) format('truetype');
+  }  

@@ -1,38 +1,201 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  /* flex: 1; */
+  /* display: flex;
+  width: 100%; */
+ padding-top: 10px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navCon {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.rightYellow{
+  position: absolute;
+  right:  0;
+  top: 0;
+  width: 50% ;
+  z-index: -1;
+}
+.leftGreen{
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+.illPic{
+  position: absolute;
+  right:  0;
+  top: 0;
+  margin-top: 180px;
+  margin-right: 80px;
+  width: 40% ;
+  z-index: -2;
+}
+
+.logo {
+  /* width: 20%;
+  min-width: 180px; */
+  height: 73px;
+  /* margin-left: 20%; */
+  /* margin-top: 50px; */
+}
+
+.topNav{
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.topNavItmCountainer{
+  display: flex;
+  flex-direction: row;
+
+}
+
+.topNavItm {
+  margin: 0 50px;
+  font-family: 'Regular';
+  font-weight: bold;
+  font-size: 1.2rem;
+  list-style-type: none;
+  color:  white;
+  text-shadow: 1px 1px 2px black;
+}
+#frtItm{
+  color: #495E57;
+  text-shadow: 1px 1px 2px gray;
+}
+
+.aboutUsParagraph{
+  width: 50%;
+  text-align: justify;
+  text-justify: inter-word;
+  font-family: 'Regular';
+}
+
+.resturantAbout{
+  margin-left: 10%;
+  margin-top: 70px;
+}
+
+.welcomTxt{
+  font-family: 'Italic';
+  color:#495E57
+}
+
+.restName{
+  font-family: 'Bold';
+  font-size:  5rem;
+  color: #F4CE14;
+  /* text-shadow: 1px 1px 4px  black; */
+}
+
+.whoAreTxt{
+  font-family: 'Italic';
+}
+
+.mainBtnClass {
+  height: 50px;
+  border-radius: 23.5px;
+  width: 125px;
+  margin-right: 20px;
+  background-color: #E0E0E0;
+  color:#495E57 ;
+  border-color: #F4CE14;
+  font-family: 'Bold';
+  font-size: 16px;
+  border-width: 1.5px;
+}
+button:hover {
+  background-color:#F4CE14;
   color: white;
+  font-size: bold;
 }
 
-.App-link {
-  color: #61dafb;
+.secPick{
+height: 953px;
+background-color: #FAFAFA;
+margin-left: 10%;
+margin-right: 10%;
+margin-top: 30px;
+border-radius: 25px ;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.switcherNav {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+  margin-right:50px;
+}
+.frstComp{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+ 
+}
+
+
+.stepsContainer{
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  justify-content: space-between;
+  /* margin-left: 20%;*/
+  margin-right: 50px; 
+  
+}
+
+.pickerContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  /* margin-left: 30px; */
+  /* margin-right: 30px; */
+  width: 50%;
+  height: 674px;
+  margin-top: 30px;
+}
+
+.pickDate h2 {
+  font-family: 'Bold';
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+}
+
+.pickDate {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  height: 600px;
+  width: 90%;
+  margin-right: 10%;
+  margin-top: 70px
+}
+
+.dubaiViewContainer {
+  /* width:  560px; */
+  width: 50%;
+  border-radius: 50px;
+  height: 675px;
+overflow: hidden;
+}
+
+.dubaiViewPic {
+  width:  560px;
+  border-radius: 50px;
+}
+
+.inputsSteps{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 30%;
 }
