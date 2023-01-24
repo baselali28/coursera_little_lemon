@@ -4,6 +4,7 @@ import { useState } from "react";
 import FierstStepRes from "./firstStepRes";
 import SecondStepRes from "./secondStepRes";
 import SucssesStepRes from "./sucssesStepRes";
+import Congrads from "./Congrads";
 // import TimePickCust from "./timePicker";
 import dubaiView from "../assets/img/dubaiView.webp";
 
@@ -69,10 +70,12 @@ function SwitcherNav() {
             <SecondStepRes text="222" />
           ) : step === 3 ? (
             <SucssesStepRes text="333" />
+          ) : step === 4 ? (
+            <Congrads text="333" />
           ) : (
             ""
           )}
-          <div className="resBtnCont">
+          <div className="resBtnMainCont">
             {step === 1 ? (
               <button className="resBtn" onClick={() => setStep(2)}>
                 {" "}

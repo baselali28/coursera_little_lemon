@@ -249,13 +249,22 @@ border-radius: 8px;
 .cafPlanPic {
   height: 227px;
 }
-.resBtnCont {
+.resBtnMainCont{
   width: 90%;
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-top: 20px;
   margin-right: 10%;
+  flex-direction: row;
+}
+.resBtnCont {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* margin-top: 20px; */
+  /* margin-right: 10%; */
   flex-direction: row;
 }
 
@@ -268,7 +277,7 @@ border-radius: 8px;
   font-weight: bold;
 border-radius: 8px;
 height: 54px;
-margin: 10px
+margin: 10px 10px 10px 0px
 }
 
 .availability {
@@ -296,4 +305,72 @@ margin: 10px
   left: 0px;
   top: 1500px;
   z-index: -3;
+}
+
+.secInfoCont {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin-right: 10%;
+  margin-top: 30px;
+}
+
+.infoInputCon{
+  display: flex;
+  flex-direction: column;
+}
+.inputTxt{
+  margin-top: 30px;
+  height: 42px;
+  background-color: #E0E0E0;
+  border-radius: 8px;
+}
+
+.secInfoCont h2 {
+  font-family: 'Regular';
+  font-size: 1.8rem;
+}
+
+#price {
+  margin: 90px 0 0 0;
+}
+
+#price2 {
+  margin: 30px 0 0 0;
+}
+.fonAwPayIcn {
+  font-size: 2rem;
+  margin: 10px;
+}
+
+.ccvDateCont{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#expiredDate{
+  width: 50%;
+}
+
+.congradsContainer{
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin-right: 10%;
+  margin-bottom: 70px;
+}
+.congradsContainer img {
+  height: 190px;
+  width: 190px;
+}
+.congradsContainer h2 {
+  font-family: 'Bold';
+  font-weight: bolder;
+  font-size: 2.5rem;
+  text-align: center;
 }
