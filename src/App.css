@@ -115,7 +115,7 @@ button:hover {
 }
 
 .secPick{
-height: 953px;
+height: 900px;
 background-color: #FAFAFA;
 margin-left: 10%;
 margin-right: 10%;
@@ -215,7 +215,7 @@ overflow: hidden;
   flex-direction: row;
   width: 90%;
   justify-content: space-between;
-  margin-top: 30px;
+  margin-top: 20px;
   align-items: center;
 }
 
@@ -243,7 +243,7 @@ border-radius: 8px;
   display: flex;
   flex-direction: column;
   width: 90%;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .cafPlanPic {
@@ -254,7 +254,7 @@ border-radius: 8px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 20px;
+  margin-top: 10px;
   margin-right: 10%;
   flex-direction: row;
 }
@@ -302,11 +302,45 @@ margin: 10px 10px 10px 0px
 .frstSecBkImg{
   position: absolute;
   height: 808px;
+  /* width: 100%; */
   left: 0px;
-  top: 1500px;
+  top: 1350px;
   z-index: -3;
 }
-
+.secondSecBkImg{
+  position: absolute;
+  height: 808px;
+  /* width: 100%; */
+  left: 0px;
+  top: 2550px;
+  z-index: -3;
+}
+.thrdSecBkImg{
+  position: absolute;
+  height: 920px;
+  /* width: 100%; */
+  left: 0px;
+  top: 3850px;
+  z-index: -3;
+}
+.frthSecBkImg{
+  position: absolute;
+  height: 259px;
+  width: 100%;
+  background-color: #495E57;
+  left: 0px;
+  top: 5350px;
+  z-index: -3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.frthSecBkImg p {
+  color: white;
+  font-family: 'Regular';
+  font-size: 1.5rem;
+  margin-top: 100px;
+}
 .secInfoCont {
   display: flex;
   flex-direction: column;
@@ -373,4 +407,165 @@ margin: 10px 10px 10px 0px
   font-weight: bolder;
   font-size: 2.5rem;
   text-align: center;
+}
+
+.secCarousell{
+ height: 1000px;
+ background-color: #FAFAFA;
+ margin-left: 10%;
+margin-right: 10%;
+margin-top: 300px;
+border-radius: 25px ;
+}
+.secContactUs{
+  height: 1000px;
+  background-color: #FAFAFA;
+  margin-left: 10%;
+ margin-right: 10%;
+ margin-top: 300px;
+ border-radius: 25px ;
+ }
+ .secGetDir{
+  height: 1000px;
+  background-color: #FAFAFA;
+  margin-left: 10%;
+ margin-right: 10%;
+ margin-top: 300px;
+ border-radius: 25px ;
+ }
+.secCaroCont{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+/* .activeItem{
+  height: 573px;
+  width:  573px;
+  overflow: hidden;
+  border-radius: 30px;
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transition: box-shadow 1s,  height 250ms, width 250ms, left 1s, margin-top 1s, line-height 250ms, background-color 1s;}
+  .activeItem img{
+    height: 100%;
+  }
+  .nonActiveItem img{
+    height: 100%;
+  }
+.nonActiveItem {
+  color:white;
+  overflow: hidden;
+  background-color : red;
+   margin: 40px;
+   height: 300px;
+   width:  300px;
+   border-radius: 30px;
+} */
+
+.item{
+  border-radius: 30px;
+  overflow: hidden;
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  margin-left: 32px;
+  /* position: absolute; */
+  /* left: 50%; */
+  /* top: 50%; */
+  transform: translate(-50%, -50%);
+  /* transition: box-shadow 1s, height 250ms, width 250ms, left 1s, margin-top 1s, line-height 250ms, background-color 1s; */
+  transition: box-shadow 1s, height 2s, width 2s, left 1s, margin-top 1s ;
+
+}
+.item img{
+  height: 100%;
+  
+}
+.carouselCont {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  align-items: center;
+  /* position: relative; */
+  margin-top: 550px;
+  /* top: 120px;*/
+  /* left: 0; */
+}
+
+.carouselBtnCont{
+  display: flex;
+  flex-direction: row;
+  margin-top: 150px;
+  width: 70%;
+}
+
+.carouselBtn{
+  background-color: transparent;
+  border: none;
+  font-size: 2rem;
+  margin: 1em;
+}
+.carouselBtn:hover {
+  background-color: transparent;
+  color: #F4CE14;
+}
+
+.active {
+  position: absolute;
+  box-shadow: 0 0.1em 1.2em #212121;
+  height: 550px;
+  width: 550px;
+  /* left: 0; */
+  z-index: 3;
+  margin-top: 180px;
+  
+}
+
+.active-1 {
+  position: absolute;
+  height: 417px;
+  width:  417px;
+  left:30%;
+  margin-top: 100px;
+  z-index: 2;
+}
+
+.active-2 {
+  position: absolute;
+  height: 300px;
+  width:  300px;
+  left:20%;
+  margin-top: 10px;
+  z-index: 1;
+}
+
+.active1 {
+  position: absolute;
+  height: 417px;
+  width:  417px;
+  left: 65%;
+  margin-top: 100px;
+  z-index: 2;
+}
+.active2 {
+  position: absolute;
+  height: 300px;
+  width:  300px;
+  left:  75%;
+  margin-top: 10px;
+  z-index: 1;
+}
+
+.imgTxt{
+  color: #212121;
+  margin: 0;
+}
+.imgTxt p {
+  margin: 0;
 }

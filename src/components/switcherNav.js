@@ -27,6 +27,7 @@ function SwitcherNav() {
                 onClick={() => handleSteps(1)}
                 value="1"
                 checked={step === 1}
+                disabled={true}
               />
               <label>Pick Date</label>
             </div>
@@ -38,6 +39,7 @@ function SwitcherNav() {
                 onClick={() => handleSteps(2)}
                 value="2"
                 checked={step === 2}
+                disabled={true}
               />
               <label>Your Info.</label>
             </div>
@@ -49,6 +51,7 @@ function SwitcherNav() {
                 onClick={() => handleSteps(3)}
                 value="3"
                 checked={step === 3}
+                disabled={true}
               />
               <label>Pay</label>
             </div>
@@ -60,6 +63,7 @@ function SwitcherNav() {
                 onClick={() => handleSteps(4)}
                 value="4"
                 checked={step === 4}
+                disabled={true}
               />
               <label>Congrads!</label>
             </div>

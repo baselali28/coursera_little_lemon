@@ -6,6 +6,9 @@ import leftGreen from "./assets/img/lG.png";
 import illPic from "./assets/img/illustatPic.png";
 import Reservation from "./components/Reservation";
 import frstSecBkImg from "./assets/img/frstScec.jpg";
+import secondSecBkImg from "./assets/img/secSec.jpg";
+import thrdSecBkImg from "./assets/img/thrdSecBkImg.webp";
+import Carousel from "./components/Carousel";
 function App() {
   return (
     <body>
@@ -53,6 +56,20 @@ function App() {
         <Reservation />
       </section>
       <img className="frstSecBkImg" src={frstSecBkImg} />
+      <section className="secCarousell ">
+        <Carousel />
+      </section>
+      <img className="secondSecBkImg" src={secondSecBkImg} />
+      <section className="secContactUs ">
+        <Carousel />
+      </section>
+      <img className="thrdSecBkImg" src={thrdSecBkImg} />
+      <section className="secGetDir">
+        <Carousel />
+      </section>
+      <div className="frthSecBkImg">
+        <p>copyright@2023_Dubai_LittleLemon_rest</p>
+      </div>
     </body>
   );
 }
