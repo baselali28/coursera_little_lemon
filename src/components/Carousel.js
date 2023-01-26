@@ -33,6 +33,7 @@ export default function Carousel(props) {
   // console.log(items[active]);
   return (
     <div className="secCaroCont">
+      <h1 className="divH1">Our Menu</h1>
       <div className="carouselCont">
         <div className=" item active">
           <img src={items[active]} />

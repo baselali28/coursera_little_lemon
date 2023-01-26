@@ -9,6 +9,8 @@ import frstSecBkImg from "./assets/img/frstScec.jpg";
 import secondSecBkImg from "./assets/img/secSec.jpg";
 import thrdSecBkImg from "./assets/img/thrdSecBkImg.webp";
 import Carousel from "./components/Carousel";
+import ContactUs from "./components/contactUs";
+import GetDirc from "./components/getDirc";
 function App() {
   return (
     <body>
@@ -61,11 +63,11 @@ function App() {
       </section>
       <img className="secondSecBkImg" src={secondSecBkImg} />
       <section className="secContactUs ">
-        <Carousel />
+        <ContactUs />
       </section>
       <img className="thrdSecBkImg" src={thrdSecBkImg} />
       <section className="secGetDir">
-        <Carousel />
+        <GetDirc />
       </section>
       <div className="frthSecBkImg">
         <p>copyright@2023_Dubai_LittleLemon_rest</p>

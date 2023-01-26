@@ -96,7 +96,7 @@ body {
   font-family: 'Italic';
 }
 
-.mainBtnClass {
+.mainBtnClass , .contactUSBtn {
   height: 50px;
   border-radius: 23.5px;
   width: 125px;
@@ -232,11 +232,12 @@ border-radius: 8px;
   font-weight: bolder;
 }
 
-#resTitle {
+.divH1 {
   font-family: 'Bold';
   font-size: 2rem;
   color:  #333333;
   margin-bottom:30px;
+  width: 90%;
 }
 
 .cafPlanPicCon{
@@ -320,7 +321,7 @@ margin: 10px 10px 10px 0px
   height: 920px;
   /* width: 100%; */
   left: 0px;
-  top: 3850px;
+  top: 3650px;
   z-index: -3;
 }
 .frthSecBkImg{
@@ -329,7 +330,7 @@ margin: 10px 10px 10px 0px
   width: 100%;
   background-color: #495E57;
   left: 0px;
-  top: 5350px;
+  top: 4750px;
   z-index: -3;
   display: flex;
   align-items: center;
@@ -418,7 +419,7 @@ margin-top: 300px;
 border-radius: 25px ;
 }
 .secContactUs{
-  height: 1000px;
+  height: 700px;
   background-color: #FAFAFA;
   margin-left: 10%;
  margin-right: 10%;
@@ -426,7 +427,7 @@ border-radius: 25px ;
  border-radius: 25px ;
  }
  .secGetDir{
-  height: 1000px;
+  height: 700px;
   background-color: #FAFAFA;
   margin-left: 10%;
  margin-right: 10%;
@@ -568,4 +569,63 @@ border-radius: 25px ;
 }
 .imgTxt p {
   margin: 0;
+}
+
+.ContactUsCont{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.inputContactUsCont{
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  justify-content: center;
+  align-items: center;
+}
+.inputContactUS{
+  height: 30px;
+  width: 100%;
+  margin: 1em;
+  border-radius: 15px;
+  padding: 10px;
+  
+}
+
+.bigtxt{
+  height: 300px;
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 50px;
+}
+
+.contactUSBtnCont{
+  width: 100%;
+  margin-right: 5%;  
+  margin-top: 30px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.google-map-code{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.mapCont{
+  height: 500px;
+  width: 90%;
+  border-radius: 25px;
+  overflow: hidden;
+  box-shadow: 0 0.2em 0.4em #212121;
+}
+
+.mapGetDirc{
+  height: 100%;
+  width: 100%;
 }

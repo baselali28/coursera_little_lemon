@@ -15,7 +15,9 @@ function SwitcherNav() {
   }
   return (
     <div className="switcherNav">
-      <h1 id="resTitle">Reserving</h1>
+      <h1 className="divH1" id="resTitle">
+        Reserving
+      </h1>
       <div className="frstComp">
         <div className="pickerContainer">
           <div className="stepsContainer">
